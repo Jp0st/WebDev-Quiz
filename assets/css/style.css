@@ -1,0 +1,20 @@
+.quiz-questions ul{
+    list-style: none;
+}
+
+header{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+header h1{
+
+}
+
+header p{
+
+}
+
