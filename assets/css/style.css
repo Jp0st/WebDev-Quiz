@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: beige;
 }
@@ -19,15 +25,17 @@ h1{
     font-size:30px;
 }
 
-.quiz-intro{
+main
+
+#quiz-intro{
     text-align: center; 
 }
 
-.quiz-intro p{
+#quiz-intro p{
     font-size:16px;
 }
 
-.quiz-intro button{
+#quiz-intro button{
     font-size: 20px;
     background-color: rgb(78, 155, 129);
     border-radius: 15px;
@@ -35,20 +43,20 @@ h1{
     margin-top:20px;
 }
 
-.quiz-questions{
+.quiz-question{
     /*display:none;*/
     position:relative;
 }   
 
-.quiz-questions h2{
+.quiz-question h2{
     text-align: center;
 }
 
-.quiz-questions ul{
+.quiz-question ul{
     text-align: left;
 }
 
-.questions button{
+#answers button{
     background-color:rgb(78, 155, 129);
     border-radius: 5px;
     margin:5px 0px 5px 0px;
