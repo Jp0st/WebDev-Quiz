@@ -10,8 +10,8 @@
 <body>
 
     <header class = 'header'>
-        <a href = '#'>View Highscores</a>
-        <div  id = 'timer'>Time: 20</div>
+        <a href id = 'highscoreBtn'>View Highscores</a>
+        <div  id = 'timer'></div>
     </header>
 
     <main class = 'quiz-window'>
@@ -35,7 +35,24 @@
 
         <section id = 'quiz-end'>
             <h2>YOURE DONE!</h2>
+            <div id = 'score'></div>
+            <button id = 'returnBtn'></button>
+            <input id = 'intials'></input>
+            <button id = 'submitScores'>Submit</button>
         </section>
+
+        <section id = 'highscoreScrn'>
+            <h2>HIGHSCORES</h2>
+            <ul id = 'highscoreList'>
+              
+            </ul>
+            <button id='homeBtn'></button>
+            <button id= 'clearScores'></button>
+        </section>
+        
+        <footer>
+            <p id = 'rightOrWrong'></p>
+        </footer>
     </main>
 
     <script type='text/javascript' src='assets/js/script.js'></script>

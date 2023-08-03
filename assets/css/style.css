@@ -25,8 +25,6 @@ h1{
     font-size:30px;
 }
 
-main
-
 #quiz-intro{
     text-align: center; 
 }
@@ -41,25 +39,50 @@ main
     border-radius: 15px;
     padding:8px 5px 8px 5px;
     margin-top:20px;
+    margin-bottom: 25px;
 }
 
-.quiz-question{
+#quiz-question{
     /*display:none;*/
     position:relative;
+    text-align: center;
 }   
 
-.quiz-question h2{
+#quiz-question h2{
     text-align: center;
 }
 
-.quiz-question ul{
+#quiz-end{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#answers{
     text-align: left;
+    list-style:none;
+    margin-bottom: 50px;
 }
 
 #answers button{
     background-color:rgb(78, 155, 129);
     border-radius: 5px;
-    margin:5px 0px 5px 0px;
+    margin:10px 0px 10px 0px;
     font-size: 20px;
 }
 
+#highscoreScrn h2{
+    margin:20px;
+}
+
+#highscoreScrn button{
+    margin: 10px;
+}
+
+footer {
+    border-top:100px;
+    border-top-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    font-size: 20px;
+}
