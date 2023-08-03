@@ -10,6 +10,8 @@ N/A
 
 ## Usage
 
+https://jp0st.github.io/WebDev-Quiz/
+
 Clicking the start button begins the quiz presenting questions.  Correct answers add 5 seconds to the timer/score and wrong answers subtract 5 seconds. After answering all the questions or if the time runs out you are brought to an ending screen to save your score with your initials.  You are then sent back to the beginning screen of the quiz to try again.  From there you can either redo the quiz for another score or check the scores saved by clicking on the "Highscores" link.
 
 Provide instructions and examples for use. Include screenshots as needed.
